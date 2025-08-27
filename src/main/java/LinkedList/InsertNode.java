@@ -2,7 +2,11 @@ package LinkedList;
 
 public class InsertNode {
 
-
+    /**
+     *
+     * @param head
+     * @return
+     */
     public ListNode insertionSortList(ListNode head) {
         ListNode dummy = new ListNode(-5001, head);
 
